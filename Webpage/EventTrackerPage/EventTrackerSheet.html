@@ -113,27 +113,67 @@
   </div>
 </nav>
 
-<main class="container">
-  <h1>Pittsburgh Technical College</h1>
-  
-  <div class="container">
-    
-    <h2>Student Organization - Meeting/Event Tracker Sheet</h2>
+<main class="container" style="max-width: 800px;">
+  <div class="bg-dark p-3 rounded" style="display: grid;">
+    <h1 class="mb-5" style="justify-self: center;"><u>Meeting/Event Tracker Sheet</u></h1>
 
-    <h3>Name of Student Organization:</h3>
-    <p>placeholder</p>
-    <h3>Name and Email of Student Organization Representative:</h3>
-    <p>placeholder</p>
-    <h3>Date/Time of Meeting/Event:</h3>
-    <p>placeholder</p>
-    <h3>Number of Attending Members at Meeting/Event:</h3>
-    <p>placeholder</p>
-    <h3>Cost for Meeting/Event:</h3>
-    <p>placeholder</p>
-    <h3>Future Events:</h3>
-    <p>placeholder</p>
-    <h3>Number of Current Members:</h3>
-    <p>placeholder</p>
+
+    <!-- Form -->
+    <form action="" style="max-width: 400px; outline: white solid 4px;border-radius: 12px;padding: 1rem;justify-self: center;">
+      <h4>Complete all feilds of this form.</h4>
+
+      <!-- Organization name feild -->
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="FloatClubName" placeholder="name@example.com">
+        <label for="FloatClubName" class="text-black">Name of Student Organization:</label>
+      </div>
+
+      <!-- Rep Name feild -->
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="floatName" placeholder="name@example.com">
+        <label for="floatName" class="text-black">Representative name</label>
+      </div>
+
+      <!-- rep Emial feild -->
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput" class="text-black">Email address</label>
+      </div>
+
+      <!-- Date and time  -->
+      <div class="form-floating mb-3">
+        <input type="datetime-local" class="form-control" id="floatDateNTime" class="onLoadSetDateAndTime">
+        <label for="floatDateNTime" class="text-black">Date and time</label>
+      </div>
+
+      <!-- number of atendieess -->
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatAttendees" placeholder="0" value="0">
+        <label for="floatAttendees" class="text-black">number of attendees</label>
+      </div>
+
+      <!-- cost for meeting -->
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="CostOfMeeting" placeholder="name@example.com">
+        <label for="CostOfMeeting" class="text-black">Cost Of Meeting</label>
+      </div>
+
+      <!-- feuture events -->
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="FloatLaterEvents" placeholder="name@example.com">
+        <label for="FloatLaterEvents" class="text-black">Future eventes</label>
+      </div>
+
+      <!-- number of current members -->
+      <div class="form-floating mb-3">
+        <input type="number" class="form-control" id="floatNumbofMembers" placeholder="name@example.com" value="0">
+        <label for="floatNumbofMembers" class="text-black">current members</label>
+      </div>
+
+
+
+
+    </form>
   </div>
 </main>
 
@@ -141,6 +181,7 @@
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./onLoad.js" ></script>
 
       
   </body>
