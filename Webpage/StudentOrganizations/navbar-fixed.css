@@ -2,6 +2,7 @@
 body {
   min-height: 75rem;
   padding-top: 4.5rem;
+  
 }
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -52,4 +53,13 @@ body {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+.lastMinute{
+  color: white;
+}
+.clubContainer p{
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+
 }
