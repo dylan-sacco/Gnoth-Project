@@ -1,0 +1,1 @@
+Was i supposed to do the assignment as a onepager? no, but it looks pretty sick and im sure it can be inproved. i hope you guyes like it i spent 5 hours on it ;)
